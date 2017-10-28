@@ -2,37 +2,73 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
+    //Public Information
+    public float moveSpeed;
 
-	public int playerSpeed = 10;
-	public bool facingRight = true;
-	public int playerJumpPower = 1250;
-	public float moveX;
-	
-	// Update is called once per frame
-	void Update () {
-		PlayerMove ();
+    public float jumpSpeed;
 
-		moveX = Input.GetAxis ("Horizontal");
-		if (moveX < 0.0f && facingRight == false) {
-			FlipPlayer ();
-		} else if (moveX > 0.0f && facingRight == true) {
-			FlipPlayer ();
-		}
+    //Local Variables
+    float _playerSpeed;
+    bool _facingRight;
+    Animator _anim;
+    Rigidbody2D _playerRigidBody;
 
-		gameObject.GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D> ().velocity.y);
-	}
 
-	void PlayerMove() {
-	}
+    void Start()
+    {
+        _anim = GetComponent<Animator>();
+        _playerRigidBody = GetComponent<Rigidbody2D>();
+        _facingRight = true;
+        _playerSpeed = 0;
+    }
 
-	void Jump() {
-	}
+    // Update is called once per frame
+    void Update()
+    {
+        MovePlayer(_playerSpeed);
+        FlipPlayer();
+        
+        //Left
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            _playerSpeed = -moveSpeed;
+        }
 
-	void FlipPlayer() {
-		facingRight = !facingRight;
-		Vector2 localScale = gameObject.transform.localScale;
-		localScale.x *= -1;
-		transform.localScale = localScale;
-	}
+        //Right
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            _playerSpeed = moveSpeed;
+        }
+        if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+        {
+            _playerSpeed = 0;
+        }
+    }
+
+    void MovePlayer(float playerSpeed)
+    {
+        if (playerSpeed != 0f)
+        {
+            _anim.SetInteger("State", 1);
+        }
+        else
+        {
+            _anim.SetInteger("State", 0);
+
+        }
+        _playerRigidBody.velocity = new Vector3(_playerSpeed, _playerRigidBody.angularVelocity, 0);
+    }
+
+    void FlipPlayer()
+    {
+        if (_playerSpeed < 0 && !_facingRight || _playerSpeed > 0 && _facingRight)
+        {
+            _facingRight = !_facingRight;
+            Vector3 temp = transform.localScale;
+            temp.x *= -1;
+            transform.localScale = temp;
+        }
+    }
 }
