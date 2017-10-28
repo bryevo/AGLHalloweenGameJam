@@ -1,10 +1,60 @@
 fileFormatVersion: 2
 guid: b1fad279f7b140345b2d51c1e64328e4
-timeCreated: 1509221861
+timeCreated: 1509231151
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
-  externalObjects: {}
+  fileIDToRecycleName:
+    21300000: streetCobbleStoneTileset_0
+    21300002: streetCobbleStoneTileset_1
+    21300004: streetCobbleStoneTileset_2
+    21300006: streetCobbleStoneTileset_3
+    21300008: streetCobbleStoneTileset_4
+    21300010: streetCobbleStoneTileset_5
+    21300012: streetCobbleStoneTileset_6
+    21300014: streetCobbleStoneTileset_7
+    21300016: streetCobbleStoneTileset_8
+    21300018: streetCobbleStoneTileset_9
+    21300020: streetCobbleStoneTileset_10
+    21300022: streetCobbleStoneTileset_11
+    21300024: streetCobbleStoneTileset_12
+    21300026: streetCobbleStoneTileset_13
+    21300028: streetCobbleStoneTileset_14
+    21300030: streetCobbleStoneTileset_15
+    21300032: streetCobbleStoneTileset_16
+    21300034: streetCobbleStoneTileset_17
+    21300036: streetCobbleStoneTileset_18
+    21300038: streetCobbleStoneTileset_19
+    21300040: streetCobbleStoneTileset_20
+    21300042: streetCobbleStoneTileset_21
+    21300044: streetCobbleStoneTileset_22
+    21300046: streetCobbleStoneTileset_23
+    21300048: streetCobbleStoneTileset_24
+    21300050: streetCobbleStoneTileset_25
+    21300052: streetCobbleStoneTileset_26
+    21300054: streetCobbleStoneTileset_27
+    21300056: streetCobbleStoneTileset_28
+    21300058: streetCobbleStoneTileset_29
+    21300060: streetCobbleStoneTileset_30
+    21300062: streetCobbleStoneTileset_31
+    21300064: streetCobbleStoneTileset_32
+    21300066: streetCobbleStoneTileset_33
+    21300068: streetCobbleStoneTileset_34
+    21300070: streetCobbleStoneTileset_35
+    21300072: streetCobbleStoneTileset_36
+    21300074: streetCobbleStoneTileset_37
+    21300076: streetCobbleStoneTileset_38
+    21300078: streetCobbleStoneTileset_39
+    21300080: streetCobbleStoneTileset_40
+    21300082: streetCobbleStoneTileset_41
+    21300084: streetCobbleStoneTileset_42
+    21300086: streetCobbleStoneTileset_43
+    21300088: streetCobbleStoneTileset_44
+    21300090: streetCobbleStoneTileset_45
+    21300092: streetCobbleStoneTileset_46
+    21300094: streetCobbleStoneTileset_47
+    21300096: streetCobbleStoneTileset_48
+    21300098: streetCobbleStoneTileset_49
+    21300100: streetCobbleStoneTileset_50
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -40,7 +90,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,7 +108,30 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -67,7 +140,721 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 136
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 136
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 136
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 136
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 178
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 175
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 175
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 178
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 178
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 178
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_10
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 175
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_11
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 178
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 178
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_13
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 175
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_14
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 178
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 178
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_16
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 178
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_17
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 162
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_18
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 162
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_19
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 162
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_20
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 162
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_21
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 162
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_22
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 159
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 159
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_24
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 162
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_25
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 162
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 162
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_27
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 162
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_28
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 162
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 146
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_30
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 146
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_31
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 143
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_32
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 146
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_33
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 146
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_34
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 146
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_35
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 146
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_36
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 146
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 102
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 102
+        width: 50
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_39
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 102
+        width: 90
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_40
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 102
+        width: 90
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_41
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 97
+        width: 90
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_42
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 99
+        width: 90
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_43
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 29
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_44
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 29
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 29
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 29
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_47
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 6
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_48
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 6
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_49
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 6
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: streetCobbleStoneTileset_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
