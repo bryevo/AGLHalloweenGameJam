@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
         _facingRight = true;
         _playerSpeed = 0;
 
-		DontDestroyOnLoad (this.gameObject);
     }
 
     // Update is called once per frame
@@ -43,6 +42,11 @@ public class PlayerController : MonoBehaviour
         {
             _playerSpeed = moveSpeed;
         }
+
+		if (Input.GetKey(KeyCode.Space))
+		{
+			_playerSpeed = moveSpeed;
+		}
 
 		//Idle
         if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
