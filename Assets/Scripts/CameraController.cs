@@ -9,9 +9,15 @@ public class CameraController : MonoBehaviour {
 	public float xMax;
 	public float yMin;
 	public float yMax;
-	
-	// Update is called once per frame
-	void Update () {
+
+
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
+
+    // Update is called once per frame
+    void Update () {
 		float x = Mathf.Clamp (player.transform.position.x, xMin, xMax);
 		float y = Mathf.Clamp (player.transform.position.y, yMin, yMax);
 

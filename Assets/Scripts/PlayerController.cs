@@ -13,14 +13,20 @@ public class PlayerController : MonoBehaviour
     public bool _facingRight;
     Animator _anim;
     Rigidbody2D _playerRigidBody;
-
-
+    private void Awake()
+    {
+        if (FindObjectsOfType(GetType()).Length > 1)
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         _anim = GetComponent<Animator>();
         _playerRigidBody = GetComponent<Rigidbody2D>();
         _facingRight = true;
         _playerSpeed = 0;
+        DontDestroyOnLoad(this.gameObject);
 
     }
 
