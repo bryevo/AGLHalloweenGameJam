@@ -27,7 +27,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Debug.Log ("Player Speed:" + _playerSpeed + "Facing Right" + _facingRight);
         MovePlayer(_playerSpeed);
         FlipPlayer();
         

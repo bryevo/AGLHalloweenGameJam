@@ -24,11 +24,11 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue[] dialogue, GameObject dialogueBox)
     {
         this.dialogueBox = dialogueBox;
-        float pos = 0.6f;
+        float pos = 3.5f;
         foreach (var sentence in dialogue)
         {
             GameObject button = (GameObject) Instantiate(prefabButton);
-            button.transform.localPosition = new Vector3(-6.35f, pos, 0);
+            button.transform.localPosition = new Vector3(-8f, pos, 0);
             buttonRT = (RectTransform) button.transform;
             buttonRT.sizeDelta = new Vector2(0.9f, 0.9f);
             button.transform.SetParent(ParentPanel, false);
@@ -45,11 +45,11 @@ public class DialogueManager : MonoBehaviour
             textRT = (RectTransform) buttonText.transform;
             textRT.offsetMax = new Vector2(left, bottom);
             textRT.offsetMin = new Vector2(right, top);
-            buttonText.transform.localScale = new Vector3(0.03f, 0.05f, 0.04f);
+            buttonText.transform.localScale = new Vector3(0.035f, 0.035f, 0f);
             buttonText.color = Color.white;
             buttonText.text = sentence.value;
             tempButton.onClick.AddListener(() => ButtonClicked(sentence.key, sentence.value));
-            pos -= 0.95f;
+            pos -= 0.65f;
 
             objList.Add(button);
             buttonList.Add(tempButton);
