@@ -201,11 +201,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24063be65a6c94fb9a82b5fd8f7b80d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2083372340}
+  player: {fileID: 0}
   xMin: -7.5
   xMax: 1.35
   yMin: 0
   yMax: 0
+--- !u!1 &114189582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 114189583}
+  m_Layer: 0
+  m_Name: LobbyToRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &114189583
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114189582}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.66, y: -3.6, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &365950559
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cca1c796f846f4bda8d8a403914696ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _destination: 
+  _destination: HotelHallway
+  prevDestination: 
+  spawnPoint: {fileID: 706671607}
 --- !u!61 &365950561
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -271,6 +301,34 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &706671607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 706671608}
+  m_Layer: 0
+  m_Name: LobbyToHallway
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &706671608
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 706671607}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.36, y: -0.83, z: 0}
+  m_LocalScale: {x: 2.7, y: 2.7, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &984449085
@@ -302,6 +360,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _destination: HotelRoom
+  prevDestination: 
+  spawnPoint: {fileID: 114189582}
 --- !u!61 &984449087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -340,56 +400,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1355774101
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -3.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 945633feddd8a464ca96511264547774, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1996132137
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,8 +471,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2083372340 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1842835963990628, guid: 945633feddd8a464ca96511264547774,
-    type: 2}
-  m_PrefabInternal: {fileID: 1355774101}

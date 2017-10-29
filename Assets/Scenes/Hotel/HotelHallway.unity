@@ -305,6 +305,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _destination: HotelLobby
+  prevDestination: 
+  spawnPoint: {fileID: 1750447506}
 --- !u!61 &363354733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -343,71 +345,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1170568368
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 7.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858203960645408, guid: 945633feddd8a464ca96511264547774, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 212467653832044546, guid: 945633feddd8a464ca96511264547774,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.49264705
-      objectReference: {fileID: 0}
-    - target: {fileID: 212467653832044546, guid: 945633feddd8a464ca96511264547774,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.49264705
-      objectReference: {fileID: 0}
-    - target: {fileID: 212467653832044546, guid: 945633feddd8a464ca96511264547774,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.49264705
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 945633feddd8a464ca96511264547774, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1301316044
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _destination: Town
+  prevDestination: 
+  spawnPoint: {fileID: 1476060011}
 --- !u!61 &1301316046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -724,6 +663,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1476060011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1476060012}
+  m_Layer: 0
+  m_Name: HallwayToTown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1476060012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1476060011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.6, y: -3.589, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1497013154
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,4 +913,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1750447506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1750447507}
+  m_Layer: 0
+  m_Name: HallwayToLobby
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1750447507
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750447506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.73, y: -3, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

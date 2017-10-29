@@ -9,17 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Town/Town.unity
     guid: ccbc752c067c398418d6921f8476096f
   - enabled: 1
-    path: Assets/Scenes/Factory/Factory.unity
-    guid: cb8cde9299d52a840aa4296db05be5e3
-  - enabled: 1
     path: Assets/Scenes/Hotel/HotelHallway.unity
     guid: d45bec4aa08654746ace90cd7e660d78
   - enabled: 1
-<<<<<<< HEAD
-=======
     path: Assets/Scenes/Hotel/HotelLobby.unity
     guid: 051fbe61d1c81bb469891bb02051e777
   - enabled: 1
->>>>>>> master
     path: Assets/Scenes/Hotel/HotelRoom.unity
     guid: 6dd0eb4eae49fba47b3d3f3407ca0fa6
+  - enabled: 1
+    path: Assets/Scenes/Factory/Factory.unity
+    guid: cb8cde9299d52a840aa4296db05be5e3
