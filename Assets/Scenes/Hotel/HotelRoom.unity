@@ -419,13 +419,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - description: ARE YOU SLEEPY BOIIII?
+  - keyID: 0
+    description: ARE YOU SLEEPY BOIIII?
     dialogue:
     - key: Sleep
       value: Yes
     - key: Awake
       value: No
-  - description: YOU BETTA GET THE FUCK OUTTA HERE
+  - keyID: 1
+    description: Hey thats pretty good
     dialogue:
     - key: DOPE DUDE
       value: BEENUS DUDE

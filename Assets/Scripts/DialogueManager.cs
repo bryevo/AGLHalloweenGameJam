@@ -14,11 +14,11 @@ public class DialogueManager : MonoBehaviour
     private List<GameObject> objList;
     private List<Button> buttonList;
     private List<Text> textList;
-    private Queue<DialogueList> sentences;
+    private Dictionary<string, DialogueList> dictDialogue;
 
     void Start()
     {
-        sentences = new Queue<DialogueList>();
+        dictDialogue = new Dictionary<string, DialogueList>();
         objList = new List<GameObject>();
         buttonList = new List<Button>();
         textList = new List<Text>();
@@ -26,25 +26,24 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueList[] dialogueList, GameObject dialogueBox)
     {
-        sentences.Clear();
+        dictDialogue.Clear();
         this.dialogueBox = dialogueBox;
 
         foreach (var dialogues in dialogueList)
         {
-            sentences.Enqueue(dialogues);
+            dictDialogue.Add(dialogues.keyID, dialogues);
         }
-        DisplayNextSentence();
+        DisplayNextSentence("0");
     }
 
-    public void DisplayNextSentence()
+    public void DisplayNextSentence(string hashKey)
     {
-        if (sentences.Count == 0)
+        if (dictDialogue.Count == 0)
         {
             Debug.Log("end lmao");
             return;
         }
-        DialogueList dope = sentences.Dequeue();
-
+        DialogueList dope = dictDialogue[hashKey];
         Debug.Log("Start Dialogue: " + dope.description);
         float pos = 4.2f;
         GameObject textObj = (GameObject) Instantiate(prefabText);
@@ -114,7 +113,7 @@ public class DialogueManager : MonoBehaviour
                 Destroy(obj);
             }
             textList.Clear();
-            DisplayNextSentence();
+            DisplayNextSentence("1");
         }
         else
         {
