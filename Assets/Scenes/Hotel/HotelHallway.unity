@@ -366,9 +366,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1301316044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f6026a888de14761b36314de6b98d4b, type: 3}
+  m_Script: {fileID: 11500000, guid: cca1c796f846f4bda8d8a403914696ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _destination: Town
 --- !u!61 &1301316046
 BoxCollider2D:
   m_ObjectHideFlags: 0
