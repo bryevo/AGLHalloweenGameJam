@@ -25,6 +25,8 @@ ExportedObj/
 *.idea
 # Unity3D generated meta files
 *.pidb.meta
+Assets/Plugins/Editor.meta
+Assets/Plugins/Editor/JetBrains.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
