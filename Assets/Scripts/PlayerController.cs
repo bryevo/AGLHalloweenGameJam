@@ -6,12 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     //Public Information
     public float moveSpeed;
-	public GameManager GameManager;
     public float jumpSpeed;
 
     //Local Variables
     float _playerSpeed;
-    bool _facingRight;
+    public bool _facingRight;
     Animator _anim;
     Rigidbody2D _playerRigidBody;
 
@@ -29,6 +28,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		Debug.Log ("Player Speed:" + _playerSpeed + "Facing Right" + _facingRight);
         MovePlayer(_playerSpeed);
         FlipPlayer();
         
@@ -49,12 +49,7 @@ public class PlayerController : MonoBehaviour
         {
             _playerSpeed = 0;
         }
-
-		//Up
-		if(Input.GetKeyDown(KeyCode.UpArrow))
-		{
-			GameManager.LoadScene("kev");
-		}
+			
     }
 
     void MovePlayer(float playerSpeed)
@@ -71,7 +66,7 @@ public class PlayerController : MonoBehaviour
         _playerRigidBody.velocity = new Vector3(_playerSpeed, _playerRigidBody.angularVelocity, 0);
     }
 
-    void FlipPlayer()
+    public void FlipPlayer()
     {
         if (_playerSpeed < 0 && !_facingRight || _playerSpeed > 0 && _facingRight)
         {

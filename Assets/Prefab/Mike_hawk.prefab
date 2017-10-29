@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 50629719515793534}
   m_Layer: 0
   m_Name: Mike_hawk
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85279c63d8559a4bbb495a70d6376f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1.25
+  moveSpeed: 5
   jumpSpeed: 0
 --- !u!212 &212467653832044546
 SpriteRenderer:
@@ -152,7 +152,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 07d9759323d8fdd4a9a9aaa90f2f09d5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
