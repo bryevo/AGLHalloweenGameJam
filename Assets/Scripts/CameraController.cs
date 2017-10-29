@@ -9,7 +9,6 @@ public class CameraController : MonoBehaviour {
 	public float xMax;
 	public float yMin;
 	public float yMax;
-
 	
 	// Update is called once per frame
 	void Update () {
