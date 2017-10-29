@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BedController : MonoBehaviour {
-
+	
+	public Dialogue[] dialogue;
+	public GameObject dialogueBox;
+	
+	
 	// Use this for initialization
 	void Start () {
-		
+		dialogueBox.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -16,6 +20,11 @@ public class BedController : MonoBehaviour {
 
 	public void GoToSleep()
 	{
-		Debug.Log("Go to sleep!");
+		if (!dialogueBox.active)
+		{	
+		dialogueBox.SetActive(true);
+		FindObjectOfType<DialogueManager>().StartDialogue(dialogue, dialogueBox);
+		}
+
 	}
 }

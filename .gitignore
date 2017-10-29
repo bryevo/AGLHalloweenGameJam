@@ -27,6 +27,9 @@ ExportedObj/
 *.pidb.meta
 Assets/Plugins/Editor.meta
 Assets/Plugins/Editor/JetBrains.meta
+Assets/.DS_Store
+Assets/Scripts/.DS_Store
+Assets/Plugins/Editor/JetBrains/*
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
