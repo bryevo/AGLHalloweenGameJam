@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue
+public class DialogueList
 {
-    public string key;
-    public string value;
+    public string description;
+    public Dialogue[] dialogue;
 }

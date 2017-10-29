@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hotel/HotelHallway.unity
     guid: d45bec4aa08654746ace90cd7e660d78
+  - enabled: 1
+    path: Assets/Scenes/Hotel/HotelRoom.unity
+    guid: 6dd0eb4eae49fba47b3d3f3407ca0fa6

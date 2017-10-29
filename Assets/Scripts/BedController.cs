@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class BedController : MonoBehaviour {
 	
-	public Dialogue[] dialogue;
+	public DialogueList[] dialogues;
 	public GameObject dialogueBox;
-	
 	
 	// Use this for initialization
 	void Start () {
@@ -23,7 +22,7 @@ public class BedController : MonoBehaviour {
 		if (!dialogueBox.active)
 		{	
 		dialogueBox.SetActive(true);
-		FindObjectOfType<DialogueManager>().StartDialogue(dialogue, dialogueBox);
+		FindObjectOfType<DialogueManager>().StartDialogue(dialogues, dialogueBox);
 		}
 
 	}
