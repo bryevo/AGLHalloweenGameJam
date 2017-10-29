@@ -1,24 +1,17 @@
 fileFormatVersion: 2
-guid: 5422931b634b4a4449641c067ecd17eb
-timeCreated: 1509312128
+guid: cd418234323c29348b4e3b08f1844ae4
+timeCreated: 1509313542
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: console-active_0
-    21300002: console-active_1
-    21300004: console-active_2
-    21300006: console-active_3
-    21300008: console-active_4
-    21300010: console-active_5
-    21300012: console-active_6
-    21300014: console-active_7
-    21300016: console-active_8
-    21300018: console-active_9
-    21300020: console-active_10
-    21300022: console-active_11
-    21300024: console-active_12
-    21300026: console-active_13
-    21300028: console-active_14
+    21300000: straight-pipe_0
+    21300002: straight-pipe_1
+    21300004: straight-pipe_2
+    21300006: straight-pipe_3
+    21300008: straight-pipe_4
+    21300010: straight-pipe_5
+    21300012: straight-pipe_6
+    21300014: straight-pipe_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -56,7 +49,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -93,13 +86,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: console-active_0
+      name: straight-pipe_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,13 +100,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_1
+      name: straight-pipe_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,13 +114,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_2
+      name: straight-pipe_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,13 +128,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_3
+      name: straight-pipe_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,13 +142,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_4
+      name: straight-pipe_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,13 +156,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_5
+      name: straight-pipe_5
       rect:
         serializedVersion: 2
         x: 80
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,13 +170,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_6
+      name: straight-pipe_6
       rect:
         serializedVersion: 2
         x: 96
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,111 +184,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: console-active_7
+      name: straight-pipe_7
       rect:
         serializedVersion: 2
         x: 112
-        y: 1
+        y: 0
         width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_9
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_10
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_11
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_12
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_13
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 1
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: console-active_14
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 1
-        width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
