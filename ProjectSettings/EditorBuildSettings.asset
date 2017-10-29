@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Town/Town.unity
+    guid: ccbc752c067c398418d6921f8476096f
+  - enabled: 1
+    path: Assets/Scenes/Factory/Factory.unity
+    guid: cb8cde9299d52a840aa4296db05be5e3
+  - enabled: 1
+    path: Assets/Scenes/Hotel/HotelHallway.unity
+    guid: d45bec4aa08654746ace90cd7e660d78

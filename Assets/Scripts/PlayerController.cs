@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     //Public Information
     public float moveSpeed;
-
+	public GameManager GameManager;
     public float jumpSpeed;
 
     //Local Variables
@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
         _playerRigidBody = GetComponent<Rigidbody2D>();
         _facingRight = true;
         _playerSpeed = 0;
+
+		DontDestroyOnLoad (this.gameObject);
     }
 
     // Update is called once per frame
@@ -41,10 +43,18 @@ public class PlayerController : MonoBehaviour
         {
             _playerSpeed = moveSpeed;
         }
+
+		//Idle
         if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
         {
             _playerSpeed = 0;
         }
+
+		//Up
+		if(Input.GetKeyDown(KeyCode.UpArrow))
+		{
+			GameManager.LoadScene("kev");
+		}
     }
 
     void MovePlayer(float playerSpeed)
