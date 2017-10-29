@@ -14,6 +14,7 @@ public class PortalController : MonoBehaviour {
 			if (Input.GetKeyDown(KeyCode.UpArrow)) {
 				SceneManager.LoadScene(_destination);
 			}
+				
 		}
 	}
 
