@@ -6,12 +6,11 @@ public class PlayerController : MonoBehaviour
 {
     //Public Information
     public float moveSpeed;
-
     public float jumpSpeed;
 
     //Local Variables
     float _playerSpeed;
-    bool _facingRight;
+    public bool _facingRight;
     Animator _anim;
     Rigidbody2D _playerRigidBody;
 
@@ -22,11 +21,13 @@ public class PlayerController : MonoBehaviour
         _playerRigidBody = GetComponent<Rigidbody2D>();
         _facingRight = true;
         _playerSpeed = 0;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+		Debug.Log ("Player Speed:" + _playerSpeed + "Facing Right" + _facingRight);
         MovePlayer(_playerSpeed);
         FlipPlayer();
         
@@ -41,10 +42,18 @@ public class PlayerController : MonoBehaviour
         {
             _playerSpeed = moveSpeed;
         }
+
+		if (Input.GetKey(KeyCode.Space))
+		{
+			_playerSpeed = moveSpeed;
+		}
+
+		//Idle
         if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
         {
             _playerSpeed = 0;
         }
+			
     }
 
     void MovePlayer(float playerSpeed)
@@ -61,7 +70,7 @@ public class PlayerController : MonoBehaviour
         _playerRigidBody.velocity = new Vector3(_playerSpeed, _playerRigidBody.angularVelocity, 0);
     }
 
-    void FlipPlayer()
+    public void FlipPlayer()
     {
         if (_playerSpeed < 0 && !_facingRight || _playerSpeed > 0 && _facingRight)
         {
