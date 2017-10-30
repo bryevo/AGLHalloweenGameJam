@@ -14,7 +14,6 @@ public class HallwayToTown : MonoBehaviour {
 				SceneManager.LoadScene("Town");
 				collider.gameObject.transform.position = new Vector3(7.419995f, -3.56f, 0f);
 				collider.gameObject.transform.localScale = new Vector3 (1.2f, 1.2f, 1f);
-
 			}
 		}
 	}
