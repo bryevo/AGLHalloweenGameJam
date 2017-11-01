@@ -58,6 +58,11 @@ public class PlayerController : MonoBehaviour
         {
             _playerSpeed = 0;
         }
+
+		if (Input.GetKey (KeyCode.Space)) {
+			_playerSpeed = 100;
+
+		}
 			
     }
 
